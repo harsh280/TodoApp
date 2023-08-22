@@ -1,0 +1,57 @@
+body{
+  width : 50%;
+  margin : 0 auto;
+}
+
+header{
+  text-align: center;
+}
+
+header h1{
+  font-size: 80px;
+  color: #2e2e2e;
+  font-weight: 400;
+}
+
+.input{
+  font-size: 20px;
+  border:none;
+  outline:none;
+  border-bottom:1px solid #2e2e2e;
+  padding : 5px;
+  width : 100%;
+}
+.task{
+  background-color: #34495e;
+  padding : 15px;
+  margin : 5px;
+  overflow-x:hidden;
+  border-radius: 5px;
+  cursor : pointer;
+}
+.task span{
+  color : #FFFFFF;
+}
+
+.icon{
+  float : right;
+  margin-right: 15px;
+}
+.bt-d{
+  border : none;
+  outline : none;
+  background-color: red;
+  border-radius: 5px;
+  height : 30px;
+  color : white;
+  cursor: pointer;
+}
+.bt-e{
+  border : none;
+  outline : none;
+  background-color: green;
+  border-radius: 5px;
+  height : 30px;
+  color : white;
+  cursor: pointer;
+}
